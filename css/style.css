@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(255, 149, 10, 0.555);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.martin {
+    margin: auto;
+    margin-top: 20px;
+    width: 750px;
+    padding-bottom: 10px;
+    background-color: rgb(0, 0, 0);
+    color: pink;
+    border-radius: 48px;
+    /* margin-left: 600px;
+    margin: */
+}
+.eyes {
+    margin: auto;
+    margin-left: 250px; */
+    padding: 65px;
+    width: 150px;
+   padding: 25px;
+   background-color: white;
+}
+button {
+    padding: 25px;
+    margin-top: 0px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-radius: 36px;
+    background: rgb(173, 169, 169);
+     display: inline; 
+   
+}
+#middle {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #eeb0bb;
+}
+.mouth {
+    text-align: center;
+    margin-top: 300px;
+    background-color: rgb(61, 30, 30);
+    width: 400px;
+    margin-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 24px; 
+}
+#eyel {
+    background-color: white;
+    padding: 36px;
+    border-radius: 36px;
+}
+p {
+    display: inline;
+    text
+}

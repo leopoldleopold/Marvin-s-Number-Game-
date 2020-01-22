@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" type="text/css" href="css/style.css">
+                    <link rel="stylesheet" type="text/css" href="css/reset.css">    
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                                <title>Martin's Eye Exhibit</title>
+        </head>
+            <body>
+                <div class="instructions">Martin has magic teeth revolving around his head! Press them to fill up his wallet!! 
+                    But don't press them too much or you'll get a visit from the Tooth Fairy!
+                    <br>
+                    
+                    <p>Success: <div id="tally"></div></p>
+                    <p> Failure: <div id="failure"></div></p>
+                    
+                    <div class="martin">
+                        <!-- <div class="eyes">
+                            <div id="leye"></div>
+                            <div id="reye"></div>
+                        </div> -->
+                        <div class="teeth">
+                            <button type="button" id="left"></button>
+                        <button type="button" id="middle"></button>
+                        <button type="button" id="right"></button>
+                        <button type="button" id="far"></button>
+                    </div>
+                    <div id="nose"></div>
+                    <div class="mouth">
+                        <div id="eyel"></div>
+                        <div id="eyer"></div>
+                        <h1>Target: 
+                            <div id="points"></div>
+                        </h1>
+                        <h2>Current Score:  
+                            <div id="score"></div>
+                        </h2>
+                    </div>
+                </div>
+                <script src = "javascript/game.js"></script>
+            </body>
+    </html>
