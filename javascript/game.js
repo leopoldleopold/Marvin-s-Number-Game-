@@ -1,4 +1,4 @@
-//Declaring Game Variables / Randomizer
+//Declaring Game Variables
 $(document).ready(function () {
     // function to initialize game
     function initGame() {
