@@ -1,4 +1,4 @@
-//Declaring Game Variables
+//Declaring Game Variables 
 $(document).ready(function () {
     // function to initialize game
     function initGame() {
@@ -39,20 +39,6 @@ $(document).ready(function () {
             win = winQuotes[Math.floor(Math.random() * winQuotes.length)];
             loss = lossQuotes[Math.floor(Math.random() * lossQuotes.length)];
         };
-        // function if game is won
-        function winGame() {
-            score();
-            alert(win);
-            success++;
-            randomizer(); 
-        };
-        // function if game is lost
-        function loseGame() {
-            score();
-            alert(loss);
-            failure++;
-            randomizer(); 
-        };
         // function to update score
         function score() {
             $("#points").text(target);
@@ -62,11 +48,15 @@ $(document).ready(function () {
         };
         // function to determine whether game is won or lost
         function winOrLose() {
-       if (userTotal === target) {
-                winGame();
+            if (userTotal === target) {
+                alert(win);
+                success++;
+                randomizer();
             }
             if (userTotal > target) {
-                loseGame();
+                alert(loss);
+                failure++;
+                randomizer();
             }
         };
         // determining user click
@@ -75,20 +65,17 @@ $(document).ready(function () {
             score();
             winOrLose();
         });
-
-        $("#middle").click(function (){
+        $("#middle").click(function () {
             userTotal += randTwo;
             score();
             winOrLose();
         });
-
-        $("#right").click(function (){
+        $("#right").click(function () {
             userTotal += randThree;
             score();
             winOrLose();
         });
-
-        $("#far").click(function (){
+        $("#far").click(function () {
             userTotal += randFour;
             score();
             winOrLose();
