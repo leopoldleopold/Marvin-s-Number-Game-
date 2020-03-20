@@ -4,9 +4,6 @@ body {
     font-size: 24px;
     text-align: center;
 }
-button {
-    outline: none;
-}
 .martin {
     margin: auto;
     margin-top: 20px;
@@ -34,6 +31,7 @@ button {
     border-radius: 36px;
     background: rgb(173, 169, 169);
      display: inline; 
+    text-decoration: none;
    
 }
 #middle {
