@@ -5,7 +5,7 @@ body {
     text-align: center;
 }
 button {
-    text-decoration: none;
+    outline: none;
 }
 .martin {
     margin: auto;
